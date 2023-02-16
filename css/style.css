@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@300&display=swap');
+
 header {
-    background: rgb(245, 199, 207);
+    background: #FFFFFF;
     padding: 20px 48px;
     box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
 }
@@ -37,13 +39,14 @@ nav li {
 }
 
 nav a {
+    font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     color: black;
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
     padding: 4px;
-    border: 2px solid rgb(207, 130, 143);
+    border: 2px solid rgb(252, 183, 195);
     background-color: white;
     border-radius: 10px;
     cursor: pointer;

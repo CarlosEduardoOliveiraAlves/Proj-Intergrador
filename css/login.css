@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@300&display=swap');
+
+header{
+    padding: 50px;
+    background-color: rgb(252, 225, 230);
+}
+
+fieldset {
+    border: 10px solid pink;
+    border-radius: 30px;
+    font-family: 'Roboto', sans-serif;
+    padding: 60px;
+}
+
+fieldset p label {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+}
+
+legend {
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.logo img{
+    max-width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main {
+    width: 25%;
+    text-align: center;
+    margin: auto;
+}
