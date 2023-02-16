@@ -50,7 +50,7 @@ main {
 }
 
 footer {
-    background-color: rgb(252, 225, 230);
+    background-image: url("/Proj-Intergrador/img/fundoHeader.png");
     padding: 81px;
     bottom: 0;
 }
