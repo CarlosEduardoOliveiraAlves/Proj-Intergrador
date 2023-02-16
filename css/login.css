@@ -3,6 +3,7 @@
 header{
     padding: 30px;
     background-color: rgb(252, 225, 230);
+    background-image: linear-gradient(rgb(253, 168, 183), rgb(250, 225, 225));
 }
 
 fieldset {
