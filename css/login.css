@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@300&display=swap');
 
 header{
-    padding: 50px;
+    padding: 30px;
     background-color: rgb(252, 225, 230);
 }
 
@@ -12,18 +12,30 @@ fieldset {
     padding: 60px;
 }
 
+fieldset p {
+    width: 300px;
+    padding: 20px;
+}
+
 fieldset p label {
     font-family: 'Roboto', sans-serif;
     font-size: 22px;
+    padding: 10px;
+    width: 50px;
 }
 
 legend {
     text-transform: uppercase;
+    color: white;
+    font-weight: bold;
     font-size: 40px;
+    width: 300px;
+    background: rgb(255, 118, 141);
+    border-radius: 20px;
 }
 
 .logo img{
-    max-width: 200px;
+    max-width: 300px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -33,4 +45,12 @@ main {
     width: 25%;
     text-align: center;
     margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+footer {
+    background-color: rgb(252, 225, 230);
+    padding: 81px;
+    bottom: 0;
 }
