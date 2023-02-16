@@ -4,6 +4,7 @@ header{
     padding: 30px;
     background-color: rgb(252, 225, 230);
     background-image: linear-gradient(rgb(253, 168, 183), rgb(250, 225, 225));
+    box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
 }
 
 fieldset {
