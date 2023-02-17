@@ -6,10 +6,11 @@ header {
     box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
 }
 
-.navbar {
+.caixa {
     position: relative;
     width: 940px;
     margin: 10px auto;
+    display: flex;
 }
 
 .logo {
@@ -29,12 +30,16 @@ nav {
     right: 50px;
 }
 
-.nav-itens {
+.navbar{
     display: inline-block;
 }
 
+ul {
+    padding-left: 20px;
+}
+
 nav li {
-    display: inline;
+    display: inline-flex;
     margin: 0 0 0 15px;
 }
 

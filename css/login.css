@@ -5,6 +5,13 @@ header{
     background-color: rgb(252, 225, 230);
     background-image: linear-gradient(rgb(253, 168, 183), rgb(250, 225, 225));
     box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
+    width: 100%;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
 }
 
 fieldset {
@@ -53,7 +60,9 @@ main {
 }
 
 footer {
-    background-image: url("/Proj-Intergrador/img/fundoHeader.png");
-    padding: 81px;
+    background: rgb(255, 118, 141);
+    background:linear-gradient(rgb(250, 224, 224, 1), rgb(253, 168, 182, 1)); 
+    padding: 73px;
     bottom: 0;
+    box-shadow: 0 4px 5px 5px rgba(0,0,0,0.5);
 }
