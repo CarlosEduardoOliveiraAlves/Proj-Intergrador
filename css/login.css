@@ -33,6 +33,7 @@ legend {
     font-size: 40px;
     width: 300px;
     background: rgb(255, 118, 141);
+    background:linear-gradient(rgb(255, 105, 132), rgb(253, 184, 184));
     border-radius: 20px;
 }
 
