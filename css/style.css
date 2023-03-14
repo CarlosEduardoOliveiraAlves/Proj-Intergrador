@@ -1,59 +1,100 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@300&display=swap');
-
-header {
-    background: #FFFFFF;
-    padding: 20px 48px;
-    box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
-}
-
-.caixa {
-    position: relative;
-    width: 940px;
-    margin: 10px auto;
-    display: flex;
-}
-
-.logo img{
-    max-width: 200px;
-    max-height: 150px;
-    width: auto;
-    height: auto;
-    margin-right: 20px;
-}
-
-nav {
-    position: absolute;
-    top: 50px;
-    right: 0px;
-}
-
-.navbar{
-    display: inline-block;
-}
-
-ul {
-    padding-left: 20px;
-}
-
-nav li {
-    display: inline-flex;
-    margin: 0 0 0 15px;
-}
-
-nav a {
+/* Gerais */
+body {
     font-family: 'Roboto', sans-serif;
-    text-transform: uppercase;
-    color: black;
-    font-weight: bold;
-    font-size: 22px;
-    text-decoration: none;
-    padding: 4px;
-    border: 2px solid rgb(252, 183, 195);
-    background-color: white;
-    border-radius: 10px;
-    cursor: pointer;
 }
 
-nav a:hover {
-    color: pink;
+.row {
+    margin: 0;
+}
+
+.container {
+    padding: 40px 0;
+}
+
+p, li {
+    color: #444;
+    font-size: 14px;
+}
+
+/* Barra de Navegação */
+
+header, .navbar {
+    background-color: #fdd0e7;
+}
+
+#navbar-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+
+
+#logo {
+    width: 150px;
+    padding: 10px;
+}
+
+.navbar-brand {
+    padding: 0;
+    color: #f266ab;
+}
+
+.navbar-brand:hover {
+    color: #f1a7cc;
+}
+
+#navbar-links a {
+    color: #f266ab;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem .8rem;
+}
+
+/* Slider */
+
+.container-fluid {
+    padding: 0;
+}
+
+#mainSlider .carousel-inner, #mainSlider .carousel-item {
+    height: 80vh;
+}
+
+#mainSlider .carousel-caption {
+    top: 30%;
+}
+
+#mainSlider .carousel-caption h2 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#mainSlider .carousel-caption p {
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 100px;
+    color: #fff;
+}
+
+.main-btn {
+    background-color: #f266ab;
+    color: #FFF;
+    text-transform: uppercase;
+    width: 200px;
+    height: 60px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 3px solid #f266ab;
+    transition: .5s;
+}
+
+.main-btn:hover {
+    text-decoration: none;
+    color: #FFF;
+    background-color: transparent;
+}
+
+.carousel-indicators .active {
+    background-color: #f266ab;
 }
