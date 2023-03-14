@@ -27,11 +27,15 @@ header, .navbar {
     padding-bottom: 0;
 }
 
-
-
 #logo {
-    width: 150px;
-    padding: 10px;
+    width: 10rem;
+    padding: 0.8rem;
+    padding-bottom: 1.25rem;
+    margin-left: 10rem;
+}
+
+#logo:hover {
+    opacity: 0.7;
 }
 
 .navbar-brand {
@@ -43,8 +47,14 @@ header, .navbar {
     color: #f1a7cc;
 }
 
+#navbar-links {
+    margin-right: 10rem;
+}
+
 #navbar-links a {
     color: #f266ab;
+    margin-right: 1.6rem;
+    font-size: 1.3rem;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -66,14 +76,14 @@ header, .navbar {
 }
 
 #mainSlider .carousel-caption h2 {
-    font-size: 50px;
+    font-size: 3rem;
     margin-bottom: 30px;
 }
 
 #mainSlider .carousel-caption p {
     font-size: 22px;
     font-weight: 300;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
     color: #fff;
 }
 
